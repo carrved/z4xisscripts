@@ -391,6 +391,6 @@ makebtn("FPS Unlocker", "unlocks th efps", getasset(""), function()
 	setfpscap(9999999)
 end)
 
-makebtn("Project: 2016", "makes the graphics and ui look like 2016 roblox", function()
+makebtn("Project: 2016", "makes the graphics and ui look like 2016 roblox", getasset("z4xis_scripts/orca.png"), function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/specowos/lua-projects/main/small%20projects/project%3A2016/2016raw.lua',true))()
 end)
