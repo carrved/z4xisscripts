@@ -410,3 +410,11 @@ end)
 makebtn("toolspin", "hatspin but tool", getasset("z4xis_scripts/orca.png"), function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/f93ecb5ed61c6fd380d57a799b40f22a36d05624/simple%20hatspin%20mod%20for%20tools"))()	
 end)
+
+makebtn("equip all tools", "equips all tools in inv", getasset("z4xis_scripts/orca.png"), function()
+	for i, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetDescendants()) do
+	if v:IsA("Tool") then
+		v.Parent = game:GetService("Players").LocalPlayer.Character
+	end
+end
+end)
