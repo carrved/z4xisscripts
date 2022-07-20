@@ -312,7 +312,7 @@ local function makebtn(name, creds, imag, scrip)
 end
 
 --// scripts
-local getasset = getsynasset or getcustomasset
+local getasset = getcustomasset
 
 makefolder("z4xis_scripts")
 writefile("z4xis_scripts/orca.png", game:HttpGet("https://raw.githubusercontent.com/z4xi/z4xisscripts/main/RobloxPlayerBeta_RwIqsDrzNf.jpg"))
