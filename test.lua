@@ -387,10 +387,22 @@ makebtn("Orca", "cool universal script that has cool ui", getasset("z4xis_script
 	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))()
 end)
 
-makebtn("FPS Unlocker", "unlocks th efps", getasset(""), function()
-	setfpscap(9999999)
+makebtn("FPS Unlocker", "unlocks th efps", getasset("z4xis_scripts/orca.png"), function()
+	setfpscap(9999)
 end)
 
 makebtn("Project: 2016", "makes the graphics and ui look like 2016 roblox", getasset("z4xis_scripts/orca.png"), function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/specowos/lua-projects/main/small%20projects/project%3A2016/2016raw.lua',true))()
+end)
+
+makebtn("fard", "fard", getasset("z4xis_scripts/orca.png"), function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/specs-scripts/main/scripts/funni%20fard%20scrip.lua"))()
+end)
+
+makebtn("sharkswap", "boombox visualizer thingy", getasset("z4xis_scripts/orca.png"), function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/lua-projects/main/small%20projects/sharkswap/src.lua"))()
+end)
+
+makebtn("simple just grass dupe", "using cola's drop stay method", getasset("z4xis_scripts/orca.png"), function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/specs-scripts/main/scripts/simple%20just%20grass%20drop%20dupe.lua"))()
 end)
