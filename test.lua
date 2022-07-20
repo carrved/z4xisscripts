@@ -406,3 +406,7 @@ end)
 makebtn("simple just grass dupe", "using cola's drop stay method", getasset("z4xis_scripts/orca.png"), function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/specs-scripts/main/scripts/simple%20just%20grass%20drop%20dupe.lua"))()
 end)
+
+makebtn("toolspin", "hatspin but tool", getasset("z4xis_scripts/orca.png"), function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/specowos/scriptsforvideos1/f93ecb5ed61c6fd380d57a799b40f22a36d05624/simple%20hatspin%20mod%20for%20tools"))()	
+end)
