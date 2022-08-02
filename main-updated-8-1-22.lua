@@ -72,7 +72,10 @@ local ScriptsTab = GUI:Tab{
 
 ScriptsTab:Button{
     Name = "Orca",
-    Description = "A beautiful universal script."
+    Description = "A beautiful universal script.",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))() 
+    end
 }
 
 ScriptsTab:Button{
