@@ -106,6 +106,14 @@ ScriptsTab:Button{
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
     end
 }
+
+ScriptsTab:Button{
+    Name = "FE Loop Fling",
+    Description = "Loop fling anyone in the game (requires rthro head and hat)",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/loop%20fling%20all'))()
+    end
+}
 -- COLA MAN
 local ColaMan = GUI:Tab{
     Name = "Cola Man",
